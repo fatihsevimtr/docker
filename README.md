@@ -18,3 +18,4 @@ Docker Course:
 17.	docker container run –name my_mongo -dp 27017:27017 mongo
 18.	docker container run –name my_mongo1 -d  -p 27018:27017 mongo
 19.	docker top my_mongo1
+20. docker container run -dp 3011:3306 --name mydb -e  MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
